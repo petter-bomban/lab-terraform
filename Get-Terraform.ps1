@@ -59,7 +59,8 @@ function Get-Terraform ($InstallPath, $File) {
     }
 
     Write-Host "Setting alias 'terraform' for terraform.exe"
-    Set-Alias -Name terraform -Value $TerraformPath -Confirm:$false -Force | Out-Null
+    $Alias = 'Set-Alias -Name terraform -Value {0} -Confirm:$false' -f $TerraformPath
+    Add-Content -Path $Profile -Value $Alias -Confirm:$false
     
     return $ReturnObject
 }
