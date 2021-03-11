@@ -4,7 +4,20 @@
 
 - Run Get-Terraform.ps1
 
-## Commands
+## Folders
+
+### hello-terraform
+
+```
+terraform apply
+```
+
+### hello-resources
+
+```
+terraform apply
+terraform destroy
+```
 
 ## Links
 

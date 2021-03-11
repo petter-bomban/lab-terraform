@@ -1,3 +1,3 @@
 output "greeting" {
-    value = file("test.txt")
+    value = file("${path.module}/test.txt")
 }
