@@ -1,35 +1,17 @@
 # Hello, Terraform!
 
+Continual learning of Terraform, used for automatic provisioning of infrastructure.
+
 ## Setup
 
 - Run Get-Terraform.ps1
+- Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 ## Folders
 
-### hello-terraform
-
-```
-terraform apply
-```
-
-### hello-resources
-
-```
-terraform apply
-terraform destroy
-```
+The subfolders contain individual projects.
 
 ## Links
 
-Hyper-V Provider
-
-https://github.com/taliesins/terraform-provider-hyperv
-https://github.com/taliesins/terraform-provider-hyperv/tree/master/examples
-
-
-https://registry.terraform.io/providers/taliesins/hyperv/latest/docs
-
-
-https://medium.com/terraform-how-to-create-a-smale-scale-cloud/instructions-on-how-to-use-terraform-to-create-a-small-scale-cloud-infrastructure-8c14cb8603a3
-
+- [Azure Provider Examples](https://github.com/terraform-providers/terraform-provider-azurerm/tree/master/examples)
 
