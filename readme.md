@@ -14,4 +14,5 @@ The subfolders contain individual projects.
 ## Links
 
 - [Azure Provider Examples](https://github.com/terraform-providers/terraform-provider-azurerm/tree/master/examples)
-
+- [AWS EC2 Examples](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance)
+- [(BETA) Hyper-V Provider Examples](https://github.com/taliesins/terraform-provider-hyperv/tree/master/examples)
